@@ -1,0 +1,25 @@
+  This port allows you to write greek documents in LaTeX, with both greektext
+and latintext,  without having to switch between the two with the usual
+commands \greektext, \latintext (or any other): you just write greek or latin
+text.
+
+  To use it, include the line:
+\usepackage{auto-greek}
+in the preample of your .tex (see included ag-test.tex).
+
+  The port installs postscript fonts created by Angelos Haritsis (Arial, Times,
+Courier) and uses hyphenation patterns for greek by:
+Regina Mourtou  (the semantics) and Stefanos Maganaris (pattern generation).
+The patterns were adapted to the Windows ASCII position by G. Moustakides.
+
+WARNING: Sometimes using auto-greek seems to break other packages. In many
+cases the solution is to simply put the usepackage command last.
+eg.
+---
+Problematic:
+\usepackage{auto-greek}
+\usepackage{graphicx}
+
+OK:
+\usepackage{graphicx}
+\usepackage{auto-greek}

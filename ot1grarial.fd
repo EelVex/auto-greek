@@ -1,0 +1,25 @@
+
+\DeclareFontFamily{OT1}{grarial}{}%
+
+%% The four primary declarations
+
+\DeclareFontShape{OT1}{grarial}{m}{n}{<->grarial-p}{}%
+\DeclareFontShape{OT1}{grarial}{m}{it}{<->grarial-i}{}%
+\DeclareFontShape{OT1}{grarial}{b}{n}{<->grarial-b}{}%
+\DeclareFontShape{OT1}{grarial}{b}{it}{<->grarial-bi}{}%
+
+%% Substitutions for additional and missing fonts
+%% (the `bx', `sl' and `sc' fonts)
+
+\DeclareFontShape{OT1}{grarial}{bx}{n}{<->ssub * grarial/b/n}{}%
+\DeclareFontShape{OT1}{grarial}{bx}{it}{<->ssub * grarial/b/it}{}%
+\DeclareFontShape{OT1}{grarial}{m}{sl}{<->ssub * grarial/m/it}{}%
+\DeclareFontShape{OT1}{grarial}{b}{sl}{<->ssub * grarial/b/it}{}%
+\DeclareFontShape{OT1}{grarial}{bx}{sl}{<->ssub * grarial/b/it}{}%
+\DeclareFontShape{OT1}{grarial}{m}{sc}{<->ssub * grarial/m/n}{}%
+\DeclareFontShape{OT1}{grarial}{b}{sc}{<->ssub * grarial/b/n}{}%
+\DeclareFontShape{OT1}{grarial}{bx}{sc}{<->ssub * grarial/b/n}{}%
+
+\endinput
+%%
+%% End of file `OT1grarial.fd'.

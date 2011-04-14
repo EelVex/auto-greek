@@ -1,0 +1,25 @@
+
+\DeclareFontFamily{OT1}{grcouri}{}%
+
+%% The four primary declarations
+
+\DeclareFontShape{OT1}{grcouri}{m}{n}{<->grcouri-p}{}%
+\DeclareFontShape{OT1}{grcouri}{m}{it}{<->grcouri-i}{}%
+\DeclareFontShape{OT1}{grcouri}{b}{n}{<->grcouri-b}{}%
+\DeclareFontShape{OT1}{grcouri}{b}{it}{<->grcouri-bi}{}%
+
+%% Substitutions for additional and missing fonts
+%% (the `bx', `sl' and `sc' fonts)
+
+\DeclareFontShape{OT1}{grcouri}{bx}{n}{<->ssub * grcouri/b/n}{}%
+\DeclareFontShape{OT1}{grcouri}{bx}{it}{<->ssub * grcouri/b/it}{}%
+\DeclareFontShape{OT1}{grcouri}{m}{sl}{<->ssub * grcouri/m/it}{}%
+\DeclareFontShape{OT1}{grcouri}{b}{sl}{<->ssub * grcouri/b/it}{}%
+\DeclareFontShape{OT1}{grcouri}{bx}{sl}{<->ssub * grcouri/b/it}{}%
+\DeclareFontShape{OT1}{grcouri}{m}{sc}{<->ssub * grcouri/m/n}{}%
+\DeclareFontShape{OT1}{grcouri}{b}{sc}{<->ssub * grcouri/b/n}{}%
+\DeclareFontShape{OT1}{grcouri}{bx}{sc}{<->ssub * grcouri/b/n}{}%
+
+\endinput
+%%
+%% End of file `OT1grcouri.fd'.

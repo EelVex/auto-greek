@@ -1,0 +1,12 @@
+grarial-b	GreekArialBold           "TeXBase1Encoding ReEncodeFont" <greek.enc <grkarib.pfb
+grarial-bi	GreekArialBoldItalic     "TeXBase1Encoding ReEncodeFont" <greek.enc <grkaribi.pfb
+grarial-i	GreekArialItalic         "TeXBase1Encoding ReEncodeFont" <greek.enc <grkarii.pfb
+grarial-p	GreekArialPlain          "TeXBase1Encoding ReEncodeFont" <greek.enc <grkarip.pfb
+grcouri-b	GreekCourierBold         "TeXBase1Encoding ReEncodeFont" <greek.enc <grkcurb.pfb
+grcouri-bi	GreekCourierBoldItalic   "TeXBase1Encoding ReEncodeFont" <greek.enc <grkcurbi.pfb
+grcouri-i	GreekCourierItalic       "TeXBase1Encoding ReEncodeFont" <greek.enc <grkcuri.pfb
+grcouri-p	GreekCourierPlain        "TeXBase1Encoding ReEncodeFont" <greek.enc <grkcurp.pfb
+grtimes-b	GreekTimesBold           "TeXBase1Encoding ReEncodeFont" <greek.enc <grktimb.pfb
+grtimes-bi	GreekTimesBoldItalic     "TeXBase1Encoding ReEncodeFont" <greek.enc <grktimbi.pfb
+grtimes-i	GreekTimesItalic         "TeXBase1Encoding ReEncodeFont" <greek.enc <grktimi.pfb
+grtimes-p	GreekTimesPlain          "TeXBase1Encoding ReEncodeFont" <greek.enc <grktimp.pfb

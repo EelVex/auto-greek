@@ -1,0 +1,25 @@
+
+\DeclareFontFamily{OT1}{grtimes}{}%
+
+%% The four primary declarations
+
+\DeclareFontShape{OT1}{grtimes}{m}{n}{<->grtimes-p}{}%
+\DeclareFontShape{OT1}{grtimes}{m}{it}{<->grtimes-i}{}%
+\DeclareFontShape{OT1}{grtimes}{b}{n}{<->grtimes-b}{}%
+\DeclareFontShape{OT1}{grtimes}{b}{it}{<->grtimes-bi}{}%
+
+%% Substitutions for additional and missing fonts
+%% (the `bx', `sl' and `sc' fonts)
+
+\DeclareFontShape{OT1}{grtimes}{bx}{n}{<->ssub * grtimes/b/n}{}%
+\DeclareFontShape{OT1}{grtimes}{bx}{it}{<->ssub * grtimes/b/it}{}%
+\DeclareFontShape{OT1}{grtimes}{m}{sl}{<->ssub * grtimes/m/it}{}%
+\DeclareFontShape{OT1}{grtimes}{b}{sl}{<->ssub * grtimes/b/it}{}%
+\DeclareFontShape{OT1}{grtimes}{bx}{sl}{<->ssub * grtimes/b/it}{}%
+\DeclareFontShape{OT1}{grtimes}{m}{sc}{<->ssub * grtimes/m/n}{}%
+\DeclareFontShape{OT1}{grtimes}{b}{sc}{<->ssub * grtimes/b/n}{}%
+\DeclareFontShape{OT1}{grtimes}{bx}{sc}{<->ssub * grtimes/b/n}{}%
+
+\endinput
+%%
+%% End of file `OT1ubtimes.fd'.
